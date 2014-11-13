@@ -1,0 +1,11 @@
+[user]
+	name = Ernesto Tagwerker
+	email = ernesto+github@ombulabs.com
+[core]
+  editor = /usr/bin/vim
+[help]
+  autocorrect = 1
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
