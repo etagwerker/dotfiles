@@ -50,7 +50,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export PATH="/bin:/usr/sbin:/sbin:/usr/local/bin"
+
+export PATH="/Users/etagwerker/.rvm/gems/ruby-2.1.4/bin:/Users/etagwerker/.rvm/gems/ruby-2.1.4@global/bin:/Users/etagwerker/.rvm/rubies/ruby-2.1.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/etagwerker/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -77,5 +78,3 @@ export PATH="/bin:/usr/sbin:/sbin:/usr/local/bin"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
