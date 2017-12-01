@@ -5,7 +5,8 @@
   editor = /usr/bin/vim
 [help]
   autocorrect = 1
-[filter "media"]
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
 	required = true
-	clean = git media clean %f
-	smudge = git media smudge %f
